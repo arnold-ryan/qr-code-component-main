@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* White: hsl(0, 0%, 100%)
+Light gray: hsl(212, 45%, 89%)
+Grayish blue: hsl(220, 15%, 55%)
+Dark blue: hsl(218, 44%, 22%) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+  font-weight: 400;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  /* margin: 48px; */
+  width: 300px;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: hsl(0, 0%, 100%);
+
+  margin-bottom: 32px;
+}
+.card--header {
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.card--image {
+  width: 100%;
+  border-radius: 8px;
+}
+.card--body {
+  font-size: 15px;
+  text-align: center;
+  padding: 12px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+.card--body-title {
+  margin-bottom: 12px;
+  color: hsl(218, 44%, 22%);
+  font-size: 18px;
+}
+.card--body-text {
+  color: hsl(220, 15%, 55%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
